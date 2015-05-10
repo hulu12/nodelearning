@@ -17,7 +17,7 @@ app.set('manuel_port',process.env.PORT||3000);
 
 //路由信息
 app.get('/',function(req, res) {
-	res.render('home',{user_name:'庞业xing'});
+	res.render('home',{user_name:'yexing'});
 });
 app.get('/about',function(req, res) {
 	var randomFortune=fortunes[Math.floor(Math.random()*fortunes.length)];
