@@ -53,7 +53,8 @@ var server = app.listen(app.get('manuel_port'), function () {
 
   var host = server.address().address;
   var port = server.address().port;
-
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log(host);
+  console.log(port);
+  console.log('LearnExpress app listening at http://%s:%s', host, port);
 
 });
